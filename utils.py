@@ -21,8 +21,8 @@ from df_as_search_db import lazy_collate as collate_func, instructor_embeddings
 from claude import claude
 
 # Define environment variables for API keys
-os.environ["GROQ_API_KEY"] = "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"
-os.environ["ANTHROPIC_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "YOUR API KEY"
+os.environ["ANTHROPIC_API_KEY"] = "YOUR API KEY"
 
 # Load vector databases
 db_lavita = get_db(db_path="lavita_train_lazy_vdb")
